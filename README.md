@@ -3,4 +3,5 @@
 存放一下 PC 上的一些配置文件数据.
 
 - .vimrc
+- commitizen
 
