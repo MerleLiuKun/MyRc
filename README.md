@@ -1,0 +1,2 @@
+# MyRc
+some config file.
