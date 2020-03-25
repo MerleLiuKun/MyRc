@@ -18,6 +18,6 @@ echo '{ "path": "cz-customizable" }' > ~/.czrc
 
 ``` sh
 # cp cz-config.js ~/.cz-config.js
-wget https://raw.githubusercontent.com/MerleLiuKun/MyRc/master/commitizen/myAdapter/cz-config.js -O .cz-config.js
+wget https://raw.githubusercontent.com/MerleLiuKun/MyRc/master/git/commitizen/myAdapter/cz-config.js -O ~/.cz-config.js
 ```
 
