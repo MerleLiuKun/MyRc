@@ -5,7 +5,7 @@
 [cz-customizable文档](https://github.com/leonardoanalista/cz-customizable)
 
 ``` sh
-npm i -g cz-customizable
+sudo npm i -g cz-customizable
 ```
 
 配置
@@ -16,7 +16,8 @@ echo '{ "path": "cz-customizable" }' > ~/.czrc
 
 在主目录下执行
 
-```sh
-cp cz-config.js ~/.cz-config.js
+``` sh
+# cp cz-config.js ~/.cz-config.js
+wget https://raw.githubusercontent.com/MerleLiuKun/MyRc/master/commitizen/myAdapter/cz-config.js -O .cz-config.js
 ```
 
