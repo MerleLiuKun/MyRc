@@ -8,3 +8,4 @@
   - commitizen
 - language
   - python
+- docker
