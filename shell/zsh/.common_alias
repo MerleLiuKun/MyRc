@@ -1,0 +1,10 @@
+# file op verbose
+alias mkdir='mkdir -v'
+alias mv='mv -v'
+alias cp='cp -v'
+alias rm='rm -v'
+alias ln='ln -v'
+
+
+# tools
+alias npm="cnpm"
