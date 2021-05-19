@@ -12,5 +12,5 @@
 
 ## MacOS
 
-- Mac app 使用 brew cask 管理；
+- Mac app 使用 brew cask 管理, 其他的走 Appstore
 - Mac 命令行程序使用 brew 管理；

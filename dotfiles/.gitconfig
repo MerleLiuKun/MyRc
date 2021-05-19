@@ -1,0 +1,15 @@
+#[http]
+#    proxy = socks5://127.0.0.1:1086
+
+[user]
+    name = klein
+	email = merle.liukun@gmail.com
+[alias]
+    ck = checkout
+    br = branch
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

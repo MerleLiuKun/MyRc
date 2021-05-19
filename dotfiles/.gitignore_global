@@ -1,0 +1,15 @@
+# IDE
+.idea/
+.vscode/
+
+# Mac
+*.DS_STORE
+
+*.swp
+*.swo
+.coverage
+*.pid
+*.log.*
+
+.python-version
+local_settings.py
